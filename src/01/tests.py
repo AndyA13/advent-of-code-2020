@@ -33,7 +33,7 @@ class PartOneTests(unittest.TestCase):
 
 class PartTwoTests(unittest.TestCase):
 
-    def test_can_find_number_tripe(self):
+    def test_can_find_number_trio(self):
 
         target = PartTwo()
         numbers = target.load_data("test_data.txt")
