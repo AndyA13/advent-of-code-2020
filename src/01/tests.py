@@ -2,7 +2,7 @@ import unittest
 from part_one import PartOne
 from part_two import PartTwo
 
-class DayOneTests(unittest.TestCase):
+class PartOneTests(unittest.TestCase):
 
     def test_can_load_data(self):
 
@@ -31,7 +31,7 @@ class DayOneTests(unittest.TestCase):
 
         self.assertEqual(answer, 514579)
 
-class DayTwoTests(unittest.TestCase):
+class PartTwoTests(unittest.TestCase):
 
     def test_can_find_number_tripe(self):
 
